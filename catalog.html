@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Umbrella Coffee</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog-page.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo">Umbrella Coffee</a>
+            <nav class="nav" data-nav>
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Главная</a></li>
+                    <li><a href="catalog.html" class="nav__link">Каталог</a></li>
+                    <li><a href="#" class="nav__link">Отзывы</a></li>
+                    <li><a href="#" class="nav__link login-btn">Вход</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Menu" data-burger>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="catalog-page">
+        <div class="container catalog-page__container">
+            <aside class="categories" style="background-color: #000;">
+                <h2>Категории</h2>
+                <ul class="categories__list">
+                    <li><a href="#" class="active">Все напитки</a></li>
+                    <li><a href="#">Кофе</a></li>
+                    <li><a href="#">Свежеобжаренный кофе</a></li>
+                    <li><a href="#">Молотый кофе</a></li>
+                    <li><a href="#">Капсулы</a></li>
+                    <li><a href="#">Другие товары</a></li>
+                </ul>
+            </aside>
+
+            <div class="products">
+                <div class="products__grid">
+                    <div class="product-card" style="max-width: 343px;">
+                        <img src="./img/Products/Rectangle 20.png" alt="Coffee 5">
+                        <p>352 ₽</p>
+                        <div class="product-card__weight">
+                            <span class="weight-option active">250гр</span>
+                            <span class="weight-option">500гр</span>
+                        </div>
+                        <h3>Кофе в капсулах <br>молотый Boobs</h3>
+                        <button class="btn">В корзину</button>
+                    </div>
+                    <div class="product-card"style="max-width: 343px;" >
+                        <img src="./img/Products/Rectangle 21.png" alt="Coffee 6">
+                        <p>450 ₽</p>
+                        <div class="product-card__weight">
+                            <span class="weight-option active">250гр</span>
+                            <span class="weight-option">500гр</span>
+                        </div>
+                        <h3>Кофе Gemma Arabika  <br>Premium Avar</h3>
+                        <button class="btn">В корзину</button>
+                    </div>
+
+                    <div class="product-cart">
+                        <div class="cart-title">
+                            <p>Для эспрессо</p>
+                            <h3>Сидамо</h3>
+                        </div>
+                        <div class="product-cart__image">
+                            <img src="./img/Products/image 4.png" alt="Black Coffee">
+                        </div>
+                        <div class="product-cart__info">
+                            <h3>Сидамо</h3>
+                            <div class="product-cart__weight">
+                                <span class="gr-option active">250гр</span>
+                                <span class="gr-option">500гр</span>
+                            </div>
+                            <div class="prod-inner">
+                                <button class="prod-btn">687 P</button>
+                                <h3 class="logo logo-cart">Umbrella <span style="color: #000;">Coffee</span></h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-cart">
+                        <div class="cart-title">
+                            <p>Для эспрессо</p>
+                            <h3>Брауд</h3>
+                        </div>
+                        <div class="product-cart__image">
+                            <img src="./img/Products/image 1.png" alt="Coffee Beans">
+                        </div>
+                        <div class="product-cart__info">
+                            <h3>Кофе в зернах Antony Колумбия</h3>
+                            <div class="product-cart__weight">
+                                <span class="gr-option">250гр</span>
+                                <span class="gr-option active">500гр</span>
+                            </div>
+                            <div class="prod-inner">
+                                <button class="prod-btn">687 P</button>
+                                <h3 class="logo logo-cart">Umbrella <span style="color: #000;">Coffee</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <h4>КТО МЫ?</h4>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Сертификаты</a></li>
+                    <li><a href="#">Пресса</a></li>
+                    <li><a href="#">Карьера</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>ПОМОЩЬ</h4>
+                <ul>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Реквизиты</a></li>
+                    <li><a href="#">Политика</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>СЕРВИС</h4>
+                <ul>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Скидка 10% за подписку</h4>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="E-mail">
+                    <button type="submit" class="btn">Подписаться</button>
+                </form>
+                <p class="terms">Условия акции</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="prod-inner auth-top">
+                <h2>ВОЙТИ</h2>
+                <h3 class="logo logo-auth">Umbrella <span style="color: #000;">Coffee</span></h3>
+            </div>
+            
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="email">Через почту</button>
+                <button class="auth-tab g2" data-tab="phone">Через телефон</button>
+            </div>
+            <form class="login-form">
+                <input type="email" placeholder="Электронная почта" required>
+                <input type="password" placeholder="Пароль" required>
+                <button type="submit" class="btn-auth">ВОЙТИ</button>
+            </form>
+            <p class="forgot-password">Забыли пароль?</p>
+            <button class="btn btn--secondary register-btn">РЕГИСТРАЦИЯ</button>
+        </div>
+    </div>
+
+    <div class="modal" id="registerModal">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <h2>Регистрация</h2>
+            <form class="register-form">
+                <input type="email" placeholder="Электронная почта" required>
+                <input type="password" placeholder="Придумайте пароль" required>
+                <button type="submit" class="btn">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
