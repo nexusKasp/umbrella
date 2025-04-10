@@ -49,11 +49,6 @@
         grid-template-columns: 1fr;
     }
 
-    .categories {
-        position: sticky;
-        top: var(--header-height);
-        z-index: 100;
-    }
 
     .categories__list {
         display: flex;
