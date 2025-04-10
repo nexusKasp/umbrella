@@ -158,42 +158,42 @@
         </div>
     </footer>
 
-     <div class="modal" id="loginModal">
-        <div class="modal__content">
-            <button class="modal__close">&times;</button>
-            <div class="prod-inner auth-top">
-                <h2>ВОЙТИ</h2>
-                <h3 class="logo logo-auth">Umbrella <span style="color: #000;">Coffee</span></h3>
+    <div class="modal" id="loginModal">
+            <div class="modal__content">
+                <button class="modal__close">&times;</button>
+                <div class="prod-inner auth-top">
+                    <h2>ВОЙТИ</h2>
+                    <h3 class="logo logo-auth">Umbrella <span style="color: #000;">Coffee</span></h3>
+                </div>
+                
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="email">Через почту</button>
+                    <button class="auth-tab g2" data-tab="phone">Через телефон</button>
+                </div>
+                <form class="login-form">
+                    <input type="email" placeholder="Электронная почта" required>
+                    <input type="password" placeholder="Пароль" required>
+                    <button type="submit" class="btn-auth">ВОЙТИ</button>
+                </form>
+                <p class="forgot-password">Забыли пароль?</p>
+                <button class="btn btn--secondary register-btn">РЕГИСТРАЦИЯ</button>
             </div>
-            
-            <div class="auth-tabs">
-                <button class="auth-tab active" data-tab="email">Через почту</button>
-                <button class="auth-tab g2" data-tab="phone">Через телефон</button>
-            </div>
-            <form class="login-form">
-                <input type="email" placeholder="Электронная почта" required>
-                <input type="password" placeholder="Пароль" required>
-                <button type="submit" class="btn-auth">ВОЙТИ</button>
-            </form>
-            <p class="forgot-password">Забыли пароль?</p>
-            <button class="btn btn--secondary register-btn">РЕГИСТРАЦИЯ</button>
         </div>
-    </div>
-    
-    <div class="modal" id="registerModal">
-        <div class="modal__content">
-            <button class="modal__close">&times;</button>
-            <div class="prod-inner auth-top">
-                <h2>Регистрация</h2>
-                <h3 class="logo logo-auth">Umbrella <span style="color: #000;">Coffee</span></h3>
+        
+        <div class="modal" id="registerModal">
+            <div class="modal__content">
+                <button class="modal__close">&times;</button>
+                <div class="prod-inner auth-top">
+                    <h2>Регистрация</h2>
+                    <h3 class="logo logo-auth">Umbrella <span style="color: #000;">Coffee</span></h3>
+                </div>
+                <form class="register-form" style="margin-bottom: 170px;">
+                    <input type="email" placeholder="Электронная почта" required>
+                    <input type="password" placeholder="Придумайте пароль" required style="margin-bottom: 30px;">
+                    <button type="submit" class="btn-auth">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                </form>
             </div>
-            <form class="register-form" style="margin-bottom: 170px;">
-                <input type="email" placeholder="Электронная почта" required>
-                <input type="password" placeholder="Придумайте пароль" required style="margin-bottom: 30px;">
-                <button type="submit" class="btn-auth">ЗАРЕГИСТРИРОВАТЬСЯ</button>
-            </form>
         </div>
-    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
